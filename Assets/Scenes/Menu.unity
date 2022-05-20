@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.58431375, g: 0.003921569, b: 0.003921569, a: 1}
+  m_Color: {r: 0.745283, g: 0.10194911, b: 0.7404729, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1216,7 +1216,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Horror Game
+  m_Text: Bonzi Bunny
 --- !u!222 &1537408743
 CanvasRenderer:
   m_ObjectHideFlags: 0
