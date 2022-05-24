@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 2563003250069692688}
   - component: {fileID: 2563003250068562896}
   - component: {fileID: 2563003250063298256}
+  - component: {fileID: 4646069428959236854}
   m_Layer: 0
   m_Name: PRP_LightingGenerator
   m_TagString: Untagged
@@ -477,3 +478,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &4646069428959236854
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2563003250070568208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 88419ae6f06c31d4c979ccca606ab9af, type: 3}
