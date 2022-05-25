@@ -319,19 +319,19 @@ public class FirstPersonController : MonoBehaviour
                 switch(hit.collider.tag)
                 {
                     case "FootSteps/WOOD":
-                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)], 0.4f);
                         break;
                     case "FootSteps/METAL":
-                        footstepAudioSource.PlayOneShot(metalClips[Random.Range(0,metalClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(metalClips[Random.Range(0,metalClips.Length - 1)], 0.4f);
                         break;
                     case "FootSteps/GRASS":
-                        footstepAudioSource.PlayOneShot(grassClips[Random.Range(0,grassClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(grassClips[Random.Range(0,grassClips.Length - 1)], 0.4f);
                         break;
                     case "FootSteps/STONE":
-                        footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
                         break;
                     default:
-                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)], 0.4f);
                         break;
                 }
             }
@@ -354,7 +354,7 @@ public class FirstPersonController : MonoBehaviour
         }
 
         if(jumpPos.y - landPos.y > 1f && wasFalling && !isDead){
-            footstepAudioSource.PlayOneShot(landSound);
+            footstepAudioSource.PlayOneShot(landSound , 0.4f);
         }
 
         if(jumpPos.y - landPos.y > 5f && wasFalling){
