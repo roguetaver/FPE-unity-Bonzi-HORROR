@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if(player.GetComponent<FirstPersonController>().isDead){
+            Initiate.Fade("restartScene",Color.black, 1f);
+        }
 
         if(estadoAtual == 1){
             this.GetComponent<State1>().enabled = true;

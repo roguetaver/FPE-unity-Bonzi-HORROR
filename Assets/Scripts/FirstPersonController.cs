@@ -115,6 +115,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private Vector3 landPos;
     [SerializeField] private bool wasFalling;
     [SerializeField] private bool isFalling;
+    public bool isDead;
+    [SerializeField] private AudioClip landSound;
 
     void Awake()
     {
@@ -340,21 +342,26 @@ public class FirstPersonController : MonoBehaviour
 
     private void Handle_Fall_Death()
     {
-        if(!characterController.isGrounded){
+        if(!characterController.isGrounded && !isFalling){
             wasFalling = false;
             isFalling = true;
             jumpPos = this.transform.position;
         }
-        else{
+        if (isFalling && characterController.isGrounded){
             wasFalling = true;
             isFalling = false;
             landPos = this.transform.position;
         }
 
-        if(jumpPos.y - landPos.y > 3f && wasFalling){
-            print("death");
+        if(jumpPos.y - landPos.y > 1f && wasFalling && !isDead){
+            footstepAudioSource.PlayOneShot(landSound);
+        }
+
+        if(jumpPos.y - landPos.y > 5f && wasFalling){
+            isDead = true;
         }
         else if (!isFalling){
+            wasFalling = false;
             landPos = this.transform.position;
             jumpPos = this.transform.position;
         }
