@@ -14,6 +14,8 @@ public class FirstPersonController : MonoBehaviour
     public bool willSlideOnSlopes = true;
     public bool canInteract = true;
     public bool useFootSteps = true;
+    public bool hasFlashlight = true;
+    public bool fallDamage = true;
 
     [Header("Controls")]
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
@@ -107,6 +109,13 @@ public class FirstPersonController : MonoBehaviour
     private float rotationX = 0;
     public static FirstPersonController instance;
 
+    //other
+    [SerializeField] private GameObject flashlight;
+    [SerializeField] private Vector3 jumpPos;
+    [SerializeField] private Vector3 landPos;
+    [SerializeField] private bool wasFalling;
+    [SerializeField] private bool isFalling;
+
     void Awake()
     {
         instance = this;
@@ -121,6 +130,17 @@ public class FirstPersonController : MonoBehaviour
     }
     void Update()
     {
+        if(hasFlashlight){
+            flashlight.SetActive(true);
+            if(Input.GetKeyDown(KeyCode.F)){
+                flashlight.GetComponent<Flashlight_PRO>().Switch();
+            }
+        }
+        else{
+            flashlight.SetActive(false);
+        }
+
+
         if(canMove)
         {
             HandleMovementInput();
@@ -147,6 +167,10 @@ public class FirstPersonController : MonoBehaviour
             if(useFootSteps)
             {
                 Handle_Footsteps();
+            }
+
+            if(fallDamage){
+                Handle_Fall_Death();
             }
 
             ApplyFinalMovements();
@@ -311,6 +335,28 @@ public class FirstPersonController : MonoBehaviour
             }
 
             footStepTimer = GetCurrentOffset;
+        }
+    }
+
+    private void Handle_Fall_Death()
+    {
+        if(!characterController.isGrounded){
+            wasFalling = false;
+            isFalling = true;
+            jumpPos = this.transform.position;
+        }
+        else{
+            wasFalling = true;
+            isFalling = false;
+            landPos = this.transform.position;
+        }
+
+        if(jumpPos.y - landPos.y > 3f && wasFalling){
+            print("death");
+        }
+        else if (!isFalling){
+            landPos = this.transform.position;
+            jumpPos = this.transform.position;
         }
     }
 
