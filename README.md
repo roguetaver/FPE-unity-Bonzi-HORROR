@@ -2,6 +2,8 @@
 
 **Alunos: Antonio Fuziy, André Tavernaro e Victor Vergara**
 
+**Roteiro: https://docs.google.com/document/d/1MVDxAD9IbwuP03Qc-w8bR8LjMI8wt4zEtDDD28L3ZbQ/edit?usp=sharing**
+
 **Definições gerais:**
 
 Gênero: Terror;
