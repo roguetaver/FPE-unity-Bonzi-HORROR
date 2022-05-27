@@ -275,23 +275,18 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleInteractCheck(){
 
-        if(currentInteractable != null){
-            crossHair.color = Color.red;
-        }
-        else{
-            crossHair.color = Color.white;
-        }
-
-        if(Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance)){
+        if(Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance , interactionLayer)){
             if(hit.collider.gameObject.layer == 7 && (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.GetInstanceID())){
                 hit.collider.TryGetComponent(out currentInteractable);
 
                 if(currentInteractable){
+                    crossHair.color = Color.red;
                     currentInteractable.OnFocus();
                 }
             }
         }
         else if(currentInteractable){
+            crossHair.color = Color.white;
             currentInteractable.OnLoseFocus();
             currentInteractable = null;
         }
@@ -331,7 +326,7 @@ public class FirstPersonController : MonoBehaviour
                         footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
                         break;
                     default:
-                        footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)], 0.4f);
+                        footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
                         break;
                 }
             }

@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelLoadingScreen.unity
     guid: d4c02e47051cd254ea7a0664b0eb1920
   - enabled: 1
-    path: Assets/Scenes/gameScene.unity
-    guid: 4a2fe0c620d72f841b6c9aa3077abdcf
+    path: Assets/Scenes/TheMotel.unity
+    guid: 1f431d15b2e678a45b15bc6b4699f088
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 1bb1c14142692ba47828240b1b24a3e1

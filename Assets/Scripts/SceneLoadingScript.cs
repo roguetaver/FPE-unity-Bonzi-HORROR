@@ -16,7 +16,7 @@ public class SceneLoadingScript : MonoBehaviour
     }
 
     IEnumerator LoadAsyncOperation(){
-        AsyncOperation gameLevel = SceneManager.LoadSceneAsync("gameScene");
+        AsyncOperation gameLevel = SceneManager.LoadSceneAsync("TheMotel");
 
         while(gameLevel.progress < 1){
             progressBar.fillAmount = gameLevel.progress;

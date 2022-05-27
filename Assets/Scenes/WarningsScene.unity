@@ -273,7 +273,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2056340684}
-        m_TargetAssemblyTypeName: EndingScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: CreditsScript, Assembly-CSharp
         m_MethodName: menuButton
         m_Mode: 1
         m_Arguments:
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 2056340683}
   - component: {fileID: 2056340684}
   m_Layer: 5
-  m_Name: Ending
+  m_Name: MENU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,6 +786,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2056340682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c8700269966f10449e825050416bf7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 31ee76220f9a69d488149d786254f067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

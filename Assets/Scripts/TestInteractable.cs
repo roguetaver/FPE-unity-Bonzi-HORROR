@@ -10,7 +10,6 @@ public class TestInteractable : Interactable
     }
 
     public override void OnInteract(){
-        SceneManager.LoadScene("Credits");
         print("interacted with :" + gameObject.name);
     }
 
