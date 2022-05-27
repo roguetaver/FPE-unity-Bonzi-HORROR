@@ -9589,6 +9589,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.903
       objectReference: {fileID: 0}
+    - target: {fileID: 7553079429542518120, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553079429542518120, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.12
+      objectReference: {fileID: 0}
     - target: {fileID: 7912807976908423687, guid: faf46774f33e3a24da88420a8f368782, type: 3}
       propertyPath: m_Name
       value: Door1Parent (1)
