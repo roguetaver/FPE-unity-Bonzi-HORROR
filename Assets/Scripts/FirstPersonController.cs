@@ -36,7 +36,7 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField, Range(1,10)] private float lookSpeedY = 2f;
     [SerializeField, Range(1,180)] private float upperLookLimit = 80f;
     [SerializeField, Range(1,180)] private float lowerLookLimit = 80f;
-    public float mouseSensitivity;
+    [SerializeField] private float mouseSensitivity;
 
     [Header("Jumping Parameters")]
     [SerializeField] private float jumpForce = 8f;
@@ -121,7 +121,7 @@ public class FirstPersonController : MonoBehaviour
     void Awake()
     {
         instance = this;
-        
+        mouseSensitivity = PlayerPrefs.GetFloat("sensibility");
         playerCamera = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -191,11 +191,11 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleMouseLook()
     {
-        rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY;
+        rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY * mouseSensitivity;
         rotationX = Mathf.Clamp(rotationX, -upperLookLimit, lowerLookLimit);
         playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0 ,0);
 
-        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX , 0);
+        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX * mouseSensitivity, 0);
 
     }
 

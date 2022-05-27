@@ -11,9 +11,9 @@ public class pauseMenu : MonoBehaviour
     void Start()
     {
         PauseMenu = this.transform.GetChild(0).gameObject;
-        gameIsPaused = false;
-        PauseMenu.SetActive(false);
         player = GameObject.Find("Player");
+        PauseMenu.SetActive(false);
+        gameIsPaused = false;
     }
 
     // Update is called once per frame
@@ -32,6 +32,7 @@ public class pauseMenu : MonoBehaviour
     public void Resume(){
         player.GetComponent<FirstPersonController>().canMove = true;
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
@@ -41,12 +42,14 @@ public class pauseMenu : MonoBehaviour
         player.GetComponent<FirstPersonController>().canMove = false;
         Cursor.lockState = CursorLockMode.None;
         PauseMenu.SetActive(true);
+        Cursor.visible = true;
         Time.timeScale = 0f;
         gameIsPaused = true;
     }
 
     public void menuButton(){
         Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("Menu");
     }
 }
