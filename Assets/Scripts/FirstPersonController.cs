@@ -117,6 +117,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private bool isFalling;
     public bool isDead;
     [SerializeField] private AudioClip landSound;
+    [SerializeField] private GameObject dustParticles;
+
 
     void Awake()
     {
@@ -315,18 +317,23 @@ public class FirstPersonController : MonoBehaviour
                 {
                     case "FootSteps/WOOD":
                         footstepAudioSource.PlayOneShot(woodClips[Random.Range(0,woodClips.Length - 1)], 0.4f);
+                        dustParticles.SetActive(true);
                         break;
                     case "FootSteps/METAL":
                         footstepAudioSource.PlayOneShot(metalClips[Random.Range(0,metalClips.Length - 1)], 0.4f);
+                        dustParticles.SetActive(false);
                         break;
                     case "FootSteps/GRASS":
                         footstepAudioSource.PlayOneShot(grassClips[Random.Range(0,grassClips.Length - 1)], 0.4f);
+                        dustParticles.SetActive(false);
                         break;
                     case "FootSteps/STONE":
                         footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
+                        dustParticles.SetActive(false);
                         break;
                     default:
                         footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
+                        dustParticles.SetActive(false);
                         break;
                 }
             }
