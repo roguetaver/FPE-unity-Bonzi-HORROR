@@ -7,26 +7,34 @@ public class Door : Interactable
     private bool isOpen = false;
     private bool canBeInteractedWith = true;
     private Animator anim;
+    public bool isLocked;
 
     private void Start(){
         anim = GetComponent<Animator>();
+        setDoorState();
     }
+
     public override void OnFocus(){
         
     }
 
     public override void OnInteract(){
         if(canBeInteractedWith){
-            isOpen = !isOpen;
+            if(!isLocked){
+                isOpen = !isOpen;
 
-            Vector3 doorTransformDirection = transform.TransformDirection(Vector3.forward);
-            Vector3 playerTransformDirection = FirstPersonController.instance.transform.position - transform.position;
-            float dot = Vector3.Dot(doorTransformDirection, playerTransformDirection);
+                Vector3 doorTransformDirection = transform.TransformDirection(Vector3.forward);
+                Vector3 playerTransformDirection = FirstPersonController.instance.transform.position - transform.position;
+                float dot = Vector3.Dot(doorTransformDirection, playerTransformDirection);
 
-            anim.SetFloat("dot",dot);
-            anim.SetBool("IsOpen",isOpen);
+                anim.SetFloat("dot",dot);
+                anim.SetBool("IsOpen",isOpen);
 
-            StartCoroutine(AutoClose());
+                StartCoroutine(AutoClose());
+            }
+            else{
+                anim.SetTrigger("LockAnimation");
+            }
         }
     }   
 
@@ -52,5 +60,14 @@ public class Door : Interactable
 
     private void Animator_UnlockInteraction(){
         canBeInteractedWith = true;
+    }
+
+    private void setDoorState(){
+        if(isLocked){
+            anim.SetBool("IsUnlocked",false);
+        }
+        else{
+            anim.SetBool("IsUnlocked",true);
+        }
     }
 }
