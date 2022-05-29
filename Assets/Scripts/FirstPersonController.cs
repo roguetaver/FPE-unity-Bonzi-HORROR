@@ -193,11 +193,11 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleMouseLook()
     {
-        rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY * mouseSensitivity;
+        rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY * mouseSensitivity * 0.25f;
         rotationX = Mathf.Clamp(rotationX, -upperLookLimit, lowerLookLimit);
         playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0 ,0);
 
-        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX * mouseSensitivity, 0);
+        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX * mouseSensitivity * 0.25f, 0);
 
     }
 
@@ -328,8 +328,14 @@ public class FirstPersonController : MonoBehaviour
                         dustParticles.SetActive(false);
                         break;
                     case "FootSteps/STONE":
+                        if(hit.collider.gameObject.layer == 11){
+                            dustParticles.SetActive(true);
+                        }
+                        else{
+                            dustParticles.SetActive(false);
+                        }
                         footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
-                        dustParticles.SetActive(false);
+                        
                         break;
                     default:
                         footstepAudioSource.PlayOneShot(stoneClips[Random.Range(0,stoneClips.Length - 1)], 0.4f);
