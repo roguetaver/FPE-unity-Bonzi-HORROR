@@ -7,9 +7,11 @@ public class LightSwitchScript : Interactable
 
     [SerializeField] private bool lightState;
     [SerializeField] private GameObject[] allLights;
+    public bool interacted;
 
     private void Start(){
         lightState = false;
+        interacted = false;
     }
 
     public override void OnFocus(){
@@ -17,6 +19,7 @@ public class LightSwitchScript : Interactable
     }
 
     public override void OnInteract(){
+        interacted = true;
         lightState = !lightState;
 
         if(lightState){

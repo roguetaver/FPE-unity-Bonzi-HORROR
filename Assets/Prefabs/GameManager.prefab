@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7386764380837881019}
   - component: {fileID: 7386764380837881018}
   - component: {fileID: 7386764380837880999}
+  - component: {fileID: 1640611346}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -60,6 +61,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDone: 0
+  bell: {fileID: 0}
+  key: {fileID: 0}
+  room1door: {fileID: 0}
 --- !u!82 &7386764380837880999
 AudioSource:
   m_ObjectHideFlags: 0
@@ -156,3 +160,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1640611346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386764380837881016}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98549ede91b9a5940b3839b5b0dd5c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDone: 0
+  room1door: {fileID: 0}
+  key: {fileID: 0}

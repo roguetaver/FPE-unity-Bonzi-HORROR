@@ -5,7 +5,7 @@ using UnityEngine;
 public class Door : Interactable
 {
     private bool isOpen = false;
-    private bool canBeInteractedWith = true;
+    [SerializeField] private bool canBeInteractedWith = true;
     private Animator anim;
     public bool isLocked;
 
@@ -22,7 +22,6 @@ public class Door : Interactable
         if(canBeInteractedWith){
             if(!isLocked){
                 isOpen = !isOpen;
-
                 Vector3 doorTransformDirection = transform.TransformDirection(Vector3.forward);
                 Vector3 playerTransformDirection = FirstPersonController.instance.transform.position - transform.position;
                 float dot = Vector3.Dot(doorTransformDirection, playerTransformDirection);
