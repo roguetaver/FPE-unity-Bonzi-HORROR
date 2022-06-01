@@ -8,7 +8,6 @@ public class State1 : MonoBehaviour
     public bool isDone;
     private GameObject playerDialog;
     private GameObject music;
-    [SerializeField] private GameObject person;
     [SerializeField] private GameObject bell;
 
 
@@ -22,7 +21,7 @@ public class State1 : MonoBehaviour
     void Update()
     {
        if(bell.GetComponent<bellScript>().isPressed){
-           person.GetComponent<Animator>().SetTrigger("DoAnimation");
+           //key animation
            isDone = true;
        }
     }
