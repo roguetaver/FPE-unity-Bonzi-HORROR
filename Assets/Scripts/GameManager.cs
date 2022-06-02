@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private GameObject player;
+    public GameObject player;
     private GameObject music;
     public int estadoAtual;
     public Text goalText;

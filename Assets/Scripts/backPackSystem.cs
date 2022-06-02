@@ -10,13 +10,12 @@ public class backPackSystem : MonoBehaviour
 
     void Start()
     {
-        backPackRegular = this.transform.GetChild(0).gameObject;
-        backPackTrans = this.transform.GetChild(1).gameObject;
+
     }
 
     void Update()
     {
-        if(backPackTrans.GetComponent<GenericInteractable>().interacted){
+        if(backPackTrans.GetComponent<GenericInteractable>().interacted && !hasDone){
             backPackTrans.SetActive(false);
             backPackRegular.SetActive(true);
             hasDone = true;

@@ -5,17 +5,13 @@ using UnityEngine;
 public class GenericInteractable : Interactable
 {
     public bool interacted;
-    private bool once;
 
     public override void OnFocus(){
         
     }
 
     public override void OnInteract(){
-        if(!once){
-            once = true;
-            interacted = true;
-        }
+        interacted = true;
     }
 
     public override void OnLoseFocus(){
