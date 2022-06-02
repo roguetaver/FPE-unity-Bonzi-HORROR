@@ -43,9 +43,9 @@ public class Door : Interactable
 
     private IEnumerator AutoClose(){
         while(isOpen){
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(1);
 
-            if(Vector3.Distance(transform.position, FirstPersonController.instance.transform.position) > 3){
+            if(Vector3.Distance(transform.position, FirstPersonController.instance.transform.position) > 2){
                 isOpen = false;
                 anim.SetFloat("dot",0);
                 anim.SetBool("IsOpen",isOpen);
