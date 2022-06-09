@@ -20,4 +20,9 @@ public class RestartMenu : MonoBehaviour
     {
         Application.Quit(); 
     }
+
+    public void creditsButton()
+    {
+        SceneManager.LoadScene("Credits"); 
+    }
 }
