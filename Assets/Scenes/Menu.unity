@@ -2547,6 +2547,7 @@ MonoBehaviour:
   - {fileID: 1902137467}
   - {fileID: 1473748940}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &90187102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4577,6 +4578,7 @@ MonoBehaviour:
   - {fileID: 1158542267}
   - {fileID: 795574109}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &136786117
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7525,6 +7527,7 @@ MonoBehaviour:
   - {fileID: 793970178}
   - {fileID: 142438521}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &206322248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10425,7 +10428,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b563ecc9af2f7a148aa993981cde4c25, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 637a4c3c9dcdb9f4f8633d4a5287ba7c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10997,6 +11000,7 @@ MonoBehaviour:
   - {fileID: 1433525725}
   - {fileID: 1578772663}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &347524874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23004,6 +23008,7 @@ MonoBehaviour:
   - {fileID: 1457314032}
   - {fileID: 207605473}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &734607594
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36015,6 +36020,7 @@ MonoBehaviour:
   - {fileID: 959131119}
   - {fileID: 1092594418}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1107418551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38447,6 +38453,7 @@ MonoBehaviour:
   - {fileID: 53835722}
   - {fileID: 607921337}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1178476359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45604,6 +45611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPressed: 0
+  bellSound: {fileID: 0}
 --- !u!64 &1379608023
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49841,6 +49849,7 @@ MonoBehaviour:
   - {fileID: 1749441640}
   - {fileID: 1883200805}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1484564322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51719,12 +51728,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 27c3b16b46a6cac4e95ee62c5faffa82, type: 3}
+    m_Font: {fileID: 12800000, guid: f236a4ed0f6cfe94fb94b1beb27dfa80, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
-    m_MaxSize: 100
+    m_MaxSize: 120
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -53034,6 +53043,7 @@ MonoBehaviour:
   - {fileID: 1612762795}
   - {fileID: 1749338470}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1570145355
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61872,6 +61882,7 @@ MonoBehaviour:
   - {fileID: 1751849309}
   - {fileID: 2007489880}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1837880689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62154,6 +62165,7 @@ MonoBehaviour:
   - {fileID: 931141806}
   - {fileID: 1201433136}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1844813771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62792,6 +62804,7 @@ MonoBehaviour:
   - {fileID: 1508496657}
   - {fileID: 1638762128}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1868070024
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64221,6 +64234,7 @@ MonoBehaviour:
   - {fileID: 357162651}
   - {fileID: 1797094058}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1914526153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65023,6 +65037,7 @@ MonoBehaviour:
   - {fileID: 1023158587}
   - {fileID: 1434858249}
   interacted: 0
+  lightSwitchSound: {fileID: 0}
 --- !u!64 &1939278335
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -5,9 +5,9 @@ using UnityEngine;
 public class MusicScript : MonoBehaviour
 {
     public AudioClip[] adClips;
-
-    public AudioSource audioSource;
+    private AudioSource audioSource;
     private GameManager gameManager;
+    
     void Start()
     {
         gameManager =  GameObject.Find("GameManager").GetComponent<GameManager>();

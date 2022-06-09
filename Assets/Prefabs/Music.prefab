@@ -141,9 +141,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   adClips:
-  - {fileID: 8300000, guid: 71bc84ea5b7902f459a65a3c00a58d4a, type: 3}
-  - {fileID: 8300000, guid: a8da3531fae33254eb3be9bcd407636a, type: 3}
-  - {fileID: 8300000, guid: 4965d101b42074049a91672f2cb03585, type: 3}
-  - {fileID: 8300000, guid: 77e09620e7625da459e0f51ec4df4984, type: 3}
-  - {fileID: 8300000, guid: 3a40283e4008e6342af524bae7534cb6, type: 3}
+  - {fileID: 8300000, guid: 8692d6cac7c95094998ca68fbd6c52d5, type: 3}
+  - {fileID: 8300000, guid: 31178b38f7320934f924f649dda07f4d, type: 3}
+  - {fileID: 8300000, guid: 680259f37fa10f54d87c26a5758f824a, type: 3}
+  - {fileID: 8300000, guid: cc143e047ef0f534292c03f8140aa71d, type: 3}
+  - {fileID: 8300000, guid: 8656a4a1eb82f7443a49faeca5150752, type: 3}
   audioSource: {fileID: 0}
