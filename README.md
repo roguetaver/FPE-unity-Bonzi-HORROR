@@ -2,9 +2,13 @@
 **By: Antonio Fuziy, André Tavernaro, Victor Vergara**
 
 **General Definitions:**
-Genre: Horror;
+
+Genre: Horror; 
+
 Platform: PC;
+
 Target Group: Horror games fans
+
 
 **Short Description:**
 The Player arrives at a motel in a remote area to rest, but quickly finds out that something is not right, but getting to safety isn’t going to be so easy.
