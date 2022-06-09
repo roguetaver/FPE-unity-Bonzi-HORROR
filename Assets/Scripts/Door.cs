@@ -9,11 +9,15 @@ public class Door : Interactable
     private Animator anim;
     public bool isLocked;
     private playerTalkingScript playerDialog;
+    private AudioSource doorAudioSource;
+    public AudioClip doorOpen;
+    public AudioClip doorLocked;
 
     private void Start(){
         anim = GetComponent<Animator>();
         setDoorState();
         playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();   
+        doorAudioSource = this.GetComponent<AudioSource>();
     }
 
     public override void OnFocus(){
@@ -23,6 +27,7 @@ public class Door : Interactable
     public override void OnInteract(){
         if(canBeInteractedWith){
             if(!isLocked){
+                doorAudioSource.PlayOneShot(doorOpen,0.8f);
                 isOpen = !isOpen;
                 Vector3 doorTransformDirection = transform.TransformDirection(Vector3.forward);
                 Vector3 playerTransformDirection = FirstPersonController.instance.transform.position - transform.position;
@@ -34,6 +39,7 @@ public class Door : Interactable
                 StartCoroutine(AutoClose());
             }
             else{
+                doorAudioSource.PlayOneShot(doorLocked,0.5f);
                 playerDialog.SetDialog(" It seems to be locked ", 4f);
                 anim.SetTrigger("LockAnimation");
             }

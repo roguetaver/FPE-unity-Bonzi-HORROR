@@ -1032,6 +1032,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1779602971}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 376173633}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 815120464}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 149725634}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 1325937808}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[4]
+      value: 
+      objectReference: {fileID: 1993222078}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[5]
+      value: 
+      objectReference: {fileID: 1634560546}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[6]
+      value: 
+      objectReference: {fileID: 375287264}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[7]
+      value: 
+      objectReference: {fileID: 21832171}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[8]
+      value: 
+      objectReference: {fileID: 2118416917}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[9]
+      value: 
+      objectReference: {fileID: 1819292627}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[10]
+      value: 
+      objectReference: {fileID: 1995767205}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[11]
+      value: 
+      objectReference: {fileID: 1352389500}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -1092,33 +1144,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 16365417}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &16365420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16365419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 376173633}
-  - {fileID: 815120464}
-  - {fileID: 149725634}
-  - {fileID: 1325937808}
-  - {fileID: 1993222078}
-  - {fileID: 1634560546}
-  - {fileID: 375287264}
-  - {fileID: 21832171}
-  - {fileID: 2118416917}
-  - {fileID: 1819292627}
-  - {fileID: 1995767205}
-  - {fileID: 1352389500}
-  interacted: 0
 --- !u!64 &16365421
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3152,6 +3177,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457894424}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1690987596}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 1447343678}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 1110869973}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 1255981389}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[4]
+      value: 
+      objectReference: {fileID: 1949348140}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[5]
+      value: 
+      objectReference: {fileID: 477497258}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[6]
+      value: 
+      objectReference: {fileID: 1199825962}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[7]
+      value: 
+      objectReference: {fileID: 174367551}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[8]
+      value: 
+      objectReference: {fileID: 625171648}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[9]
+      value: 
+      objectReference: {fileID: 1212321224}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[10]
+      value: 
+      objectReference: {fileID: 1265891981}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[11]
+      value: 
+      objectReference: {fileID: 776189562}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -3226,33 +3303,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8007441879807768515, guid: 6b91d8ef45459e948aac73a56830a8a5, type: 3}
---- !u!114 &54009226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54009224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1690987596}
-  - {fileID: 1447343678}
-  - {fileID: 1110869973}
-  - {fileID: 1255981389}
-  - {fileID: 1949348140}
-  - {fileID: 477497258}
-  - {fileID: 1199825962}
-  - {fileID: 174367551}
-  - {fileID: 625171648}
-  - {fileID: 1212321224}
-  - {fileID: 1265891981}
-  - {fileID: 776189562}
-  interacted: 0
 --- !u!1001 &56923417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6941,6 +6991,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 764437775}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 25912068}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 2033127411}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 286403859}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 936371088}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[4]
+      value: 
+      objectReference: {fileID: 1874808023}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[5]
+      value: 
+      objectReference: {fileID: 1702444929}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[6]
+      value: 
+      objectReference: {fileID: 1871192529}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[7]
+      value: 
+      objectReference: {fileID: 298951924}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[8]
+      value: 
+      objectReference: {fileID: 46047651}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[9]
+      value: 
+      objectReference: {fileID: 1866230737}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[10]
+      value: 
+      objectReference: {fileID: 1462324017}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[11]
+      value: 
+      objectReference: {fileID: 1942237419}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -7015,33 +7117,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8007441879807768515, guid: 6b91d8ef45459e948aac73a56830a8a5, type: 3}
---- !u!114 &145742241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145742239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 25912068}
-  - {fileID: 2033127411}
-  - {fileID: 286403859}
-  - {fileID: 936371088}
-  - {fileID: 1874808023}
-  - {fileID: 1702444929}
-  - {fileID: 1871192529}
-  - {fileID: 298951924}
-  - {fileID: 46047651}
-  - {fileID: 1866230737}
-  - {fileID: 1462324017}
-  - {fileID: 1942237419}
-  interacted: 0
 --- !u!1001 &147512466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20060,6 +20135,10 @@ PrefabInstance:
       propertyPath: isLocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912807975683406370, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: doorLocked
+      value: 
+      objectReference: {fileID: 8300000, guid: 2828557f73c47054aa8a2539877cc20e, type: 3}
     - target: {fileID: 7912807976908423687, guid: faf46774f33e3a24da88420a8f368782, type: 3}
       propertyPath: m_Name
       value: Door1Parent
@@ -25508,33 +25587,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 526245862}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &526245865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526245864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 832759083}
-  - {fileID: 1147412818}
-  - {fileID: 203524165}
-  - {fileID: 1582675379}
-  - {fileID: 273835514}
-  - {fileID: 894992162}
-  - {fileID: 1250898435}
-  - {fileID: 2093592801}
-  - {fileID: 994161828}
-  - {fileID: 174490138}
-  - {fileID: 29758196}
-  - {fileID: 1594688130}
-  interacted: 0
 --- !u!64 &526245866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38980,6 +39032,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457894424}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1631143248}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 1079439860}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 1741712543}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 2081172833}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -39054,25 +39126,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8007441879807768515, guid: 6b91d8ef45459e948aac73a56830a8a5, type: 3}
---- !u!114 &798792616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798792614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1631143248}
-  - {fileID: 1079439860}
-  - {fileID: 1741712543}
-  - {fileID: 2081172833}
-  interacted: 0
 --- !u!1001 &800534350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55615,33 +55668,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1136314893}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1136314896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136314895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1143413536}
-  - {fileID: 2087700429}
-  - {fileID: 1938604142}
-  - {fileID: 748671724}
-  - {fileID: 292184810}
-  - {fileID: 1708267787}
-  - {fileID: 291129172}
-  - {fileID: 1615394187}
-  - {fileID: 801033300}
-  - {fileID: 1743400092}
-  - {fileID: 304049824}
-  - {fileID: 1801897787}
-  interacted: 0
 --- !u!64 &1136314897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58208,6 +58234,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1952056206}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 2011712524}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 802580328}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 358788297}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 1332198629}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[4]
+      value: 
+      objectReference: {fileID: 1966529743}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[5]
+      value: 
+      objectReference: {fileID: 1438942087}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[6]
+      value: 
+      objectReference: {fileID: 482413966}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[7]
+      value: 
+      objectReference: {fileID: 938213576}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[8]
+      value: 
+      objectReference: {fileID: 811520665}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[9]
+      value: 
+      objectReference: {fileID: 85835308}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[10]
+      value: 
+      objectReference: {fileID: 2097898394}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[11]
+      value: 
+      objectReference: {fileID: 305213731}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -58268,33 +58346,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1192232067}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1192232070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192232069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 2011712524}
-  - {fileID: 802580328}
-  - {fileID: 358788297}
-  - {fileID: 1332198629}
-  - {fileID: 1966529743}
-  - {fileID: 1438942087}
-  - {fileID: 482413966}
-  - {fileID: 938213576}
-  - {fileID: 811520665}
-  - {fileID: 85835308}
-  - {fileID: 2097898394}
-  - {fileID: 305213731}
-  interacted: 0
 --- !u!64 &1192232071
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73911,6 +73962,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1955022256}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 681204921}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 1051787192}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 526666201}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 917798978}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -73971,25 +74042,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1514853801}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1514853804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514853803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 681204921}
-  - {fileID: 1051787192}
-  - {fileID: 526666201}
-  - {fileID: 917798978}
-  interacted: 0
 --- !u!64 &1514853805
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78374,6 +78426,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 764437775}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 297272217}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 489467362}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 26566117}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 626842446}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -78452,25 +78524,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8007441879807768515, guid: 6b91d8ef45459e948aac73a56830a8a5, type: 3}
---- !u!114 &1605039904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605039902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 297272217}
-  - {fileID: 489467362}
-  - {fileID: 26566117}
-  - {fileID: 626842446}
-  interacted: 0
 --- !u!1 &1609365395 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f87a1fa3a8b0fc541bf06648b8b37eb6, type: 3}
@@ -81794,6 +81847,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1952056206}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 906263728}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 1107431611}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 220077620}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 212905882}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -81854,25 +81927,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1675237662}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1675237665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675237664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 906263728}
-  - {fileID: 1107431611}
-  - {fileID: 220077620}
-  - {fileID: 212905882}
-  interacted: 0
 --- !u!64 &1675237666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88700,6 +88754,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1955022256}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1823083161}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 1419147674}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 2097713697}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 1272235698}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[4]
+      value: 
+      objectReference: {fileID: 369094116}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[5]
+      value: 
+      objectReference: {fileID: 1390100725}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[6]
+      value: 
+      objectReference: {fileID: 1876722207}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[7]
+      value: 
+      objectReference: {fileID: 1646542474}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[8]
+      value: 
+      objectReference: {fileID: 1417670963}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[9]
+      value: 
+      objectReference: {fileID: 18288094}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[10]
+      value: 
+      objectReference: {fileID: 458188374}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[11]
+      value: 
+      objectReference: {fileID: 462934037}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch
@@ -88760,33 +88866,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1838284577}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1838284580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838284579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1823083161}
-  - {fileID: 1419147674}
-  - {fileID: 2097713697}
-  - {fileID: 1272235698}
-  - {fileID: 369094116}
-  - {fileID: 1390100725}
-  - {fileID: 1876722207}
-  - {fileID: 1646542474}
-  - {fileID: 1417670963}
-  - {fileID: 18288094}
-  - {fileID: 458188374}
-  - {fileID: 462934037}
-  interacted: 0
 --- !u!64 &1838284581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91406,6 +91485,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1779602971}
     m_Modifications:
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1864608186}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[1]
+      value: 
+      objectReference: {fileID: 687713913}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[2]
+      value: 
+      objectReference: {fileID: 1568661405}
+    - target: {fileID: 3313411205262564296, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
+      propertyPath: allLights.Array.data[3]
+      value: 
+      objectReference: {fileID: 1765729945}
     - target: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
       propertyPath: m_Name
       value: Switch (1)
@@ -91466,25 +91565,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 1883171248}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1883171251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883171250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1864608186}
-  - {fileID: 687713913}
-  - {fileID: 1568661405}
-  - {fileID: 1765729945}
-  interacted: 0
 --- !u!64 &1883171252
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -101398,25 +101478,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 2040539107}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2040539110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040539109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 1936378799}
-  - {fileID: 988746895}
-  - {fileID: 1993389262}
-  - {fileID: 1244409586}
-  interacted: 0
 --- !u!64 &2040539111
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -102352,25 +102413,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8572243525909442652, guid: 7873b419f9034c84db53b4398b9d062d, type: 3}
   m_PrefabInstance: {fileID: 2060014740}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2060014743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060014742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c73cdff8a6b354ea4db5153deb967f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightState: 0
-  allLights:
-  - {fileID: 612743832}
-  - {fileID: 843515472}
-  - {fileID: 1620989473}
-  - {fileID: 1960174992}
-  interacted: 0
 --- !u!64 &2060014744
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -106750,6 +106792,7 @@ GameObject:
   - component: {fileID: 6503131161313873076}
   - component: {fileID: 4657741429733433820}
   - component: {fileID: 4657741429733433821}
+  - component: {fileID: 4657741429733433822}
   m_Layer: 7
   m_Name: Bell
   m_TagString: Untagged
@@ -106784,6 +106827,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPressed: 0
+  bellSound: {fileID: 8300000, guid: 53268bfd9ebc5fa4eb4d4155b70c8f99, type: 3}
+--- !u!82 &4657741429733433822
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657741429733433819}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &5006512735214115772
 Transform:
   m_ObjectHideFlags: 0

@@ -11,12 +11,14 @@ public class GameManager : MonoBehaviour
     public int estadoAtual;
     public Text goalText;
     public string location;
+    private AudioSource gmAudioSource;
 
 
     void Start()
     {
         player = GameObject.Find("Player");
         music = GameObject.Find("Music");
+        gmAudioSource = this.GetComponent<AudioSource>();
         estadoAtual = 1;
     }
 

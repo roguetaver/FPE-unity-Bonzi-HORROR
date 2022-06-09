@@ -8,10 +8,13 @@ public class LightSwitchScript : Interactable
     [SerializeField] private bool lightState;
     [SerializeField] private GameObject[] allLights;
     public bool interacted;
+    private AudioSource switchAudioSource;
+    public AudioClip lightSwitchSound;
 
     private void Start(){
         lightState = false;
         interacted = false;
+        switchAudioSource = this.GetComponent<AudioSource>();
     }
 
     public override void OnFocus(){
@@ -19,6 +22,7 @@ public class LightSwitchScript : Interactable
     }
 
     public override void OnInteract(){
+        switchAudioSource.PlayOneShot(lightSwitchSound,0.5f);
         interacted = true;
         lightState = !lightState;
 
