@@ -378,7 +378,8 @@ GameObject:
   - component: {fileID: 4853725}
   - component: {fileID: 4853724}
   - component: {fileID: 4853723}
-  m_Layer: 0
+  - component: {fileID: 4853726}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -462,6 +463,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4853721}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4853726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4853721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Room7
 --- !u!1001 &6054227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3258,6 +3272,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3303,12 +3321,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -5219,7 +5245,8 @@ GameObject:
   - component: {fileID: 106704383}
   - component: {fileID: 106704382}
   - component: {fileID: 106704381}
-  m_Layer: 0
+  - component: {fileID: 106704384}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -5303,6 +5330,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106704379}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &106704384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106704379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Room8
 --- !u!1 &108967954
 GameObject:
   m_ObjectHideFlags: 0
@@ -7717,6 +7757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -7761,9 +7805,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -7779,6 +7831,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7824,12 +7880,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -10109,6 +10173,8 @@ GameObject:
   - component: {fileID: 201232659}
   - component: {fileID: 201232658}
   - component: {fileID: 201232657}
+  - component: {fileID: 201232661}
+  - component: {fileID: 201232662}
   m_Layer: 6
   m_Name: HotelGround
   m_TagString: FootSteps/STONE
@@ -10189,13 +10255,36 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.0003, y: 0.009, z: -9.2591}
   m_LocalScale: {x: 6.8187714, y: 1, z: 5.068}
-  m_Children:
-  - {fileID: 282641177}
-  - {fileID: 1476248065}
-  - {fileID: 547771370}
+  m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201232661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201232656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
+--- !u!114 &201232662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201232656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: 
 --- !u!1001 &201404561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11371,6 +11460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -11416,12 +11509,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -13221,6 +13322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -13266,12 +13371,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -14044,7 +14157,8 @@ GameObject:
   - component: {fileID: 278218078}
   - component: {fileID: 278218077}
   - component: {fileID: 278218076}
-  m_Layer: 0
+  - component: {fileID: 278218079}
+  m_Layer: 6
   m_Name: Ground (7)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -14059,11 +14173,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278218074}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.3996, y: -0, z: 40.017}
+  m_LocalPosition: {x: -20.3996, y: 0, z: 40.017}
   m_LocalScale: {x: 0.14460716, y: 1, z: 4.8769903}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &278218076
 MeshCollider:
@@ -14128,6 +14242,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278218074}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &278218079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278218074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &278966628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14338,6 +14465,7 @@ GameObject:
   - component: {fileID: 282641180}
   - component: {fileID: 282641179}
   - component: {fileID: 282641178}
+  - component: {fileID: 282641181}
   m_Layer: 6
   m_Name: HotelGround (1)
   m_TagString: FootSteps/STONE
@@ -14353,11 +14481,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282641176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.020154, y: 0, z: 0}
-  m_LocalScale: {x: 0.3253341, y: 1, z: 1}
+  m_LocalPosition: {x: 63.687897, y: 0.009, z: -9.2591}
+  m_LocalScale: {x: 2.2183788, y: 1, z: 5.068}
   m_Children: []
-  m_Father: {fileID: 201232660}
-  m_RootOrder: 0
+  m_Father: {fileID: 1204572878}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &282641178
 MeshCollider:
@@ -14422,6 +14550,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282641176}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &282641181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282641176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1001 &283107519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15751,7 +15892,8 @@ GameObject:
   - component: {fileID: 304239563}
   - component: {fileID: 304239562}
   - component: {fileID: 304239561}
-  m_Layer: 0
+  - component: {fileID: 304239564}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -15835,6 +15977,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304239559}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &304239564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304239559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Room1
 --- !u!1 &304823150
 GameObject:
   m_ObjectHideFlags: 0
@@ -20067,6 +20222,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -20112,12 +20271,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -20488,7 +20655,8 @@ GameObject:
   - component: {fileID: 434070582}
   - component: {fileID: 434070581}
   - component: {fileID: 434070580}
-  m_Layer: 0
+  - component: {fileID: 434070583}
+  m_Layer: 6
   m_Name: road (1)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -20571,6 +20739,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434070578}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &434070583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434070578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &436979598
 GameObject:
   m_ObjectHideFlags: 0
@@ -25349,6 +25530,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -25394,12 +25579,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -26313,7 +26506,8 @@ GameObject:
   - component: {fileID: 535652121}
   - component: {fileID: 535652120}
   - component: {fileID: 535652119}
-  m_Layer: 0
+  - component: {fileID: 535652122}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -26397,6 +26591,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535652117}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &535652122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535652117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Room4
 --- !u!1001 &539330304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26816,6 +27023,7 @@ GameObject:
   - component: {fileID: 547771373}
   - component: {fileID: 547771372}
   - component: {fileID: 547771371}
+  - component: {fileID: 547771374}
   m_Layer: 6
   m_Name: HotelGround (3)
   m_TagString: FootSteps/STONE
@@ -26831,11 +27039,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547771369}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.69615, y: -0, z: 4.66721}
-  m_LocalScale: {x: 0.14036702, y: 1, z: 0.06935133}
+  m_LocalPosition: {x: 47.841045, y: 0.009, z: 14.39432}
+  m_LocalScale: {x: 0.9571306, y: 1, z: 0.35147253}
   m_Children: []
-  m_Father: {fileID: 201232660}
-  m_RootOrder: 2
+  m_Father: {fileID: 1204572878}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &547771371
 MeshCollider:
@@ -26900,6 +27108,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547771369}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &547771374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547771369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1001 &548720594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27868,6 +28089,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -27913,12 +28138,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -28024,12 +28257,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.048884686
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fa9f888f9b5d5f4f837d325a80477d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29688,7 +29933,8 @@ GameObject:
   - component: {fileID: 609451230}
   - component: {fileID: 609451229}
   - component: {fileID: 609451228}
-  m_Layer: 0
+  - component: {fileID: 609451231}
+  m_Layer: 6
   m_Name: road
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -29771,6 +30017,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609451226}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &609451231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609451226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &610987461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29944,7 +30203,8 @@ GameObject:
   - component: {fileID: 611727673}
   - component: {fileID: 611727672}
   - component: {fileID: 611727671}
-  m_Layer: 0
+  - component: {fileID: 611727674}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -30028,6 +30288,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611727669}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &611727674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611727669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Room5
 --- !u!1 &612743832
 GameObject:
   m_ObjectHideFlags: 0
@@ -31120,6 +31393,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -31165,12 +31442,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -31559,7 +31844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 651315468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LampPostsA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35230,6 +35515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -35275,12 +35564,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -35756,7 +36053,8 @@ GameObject:
   - component: {fileID: 741945589}
   - component: {fileID: 741945588}
   - component: {fileID: 741945587}
-  m_Layer: 0
+  - component: {fileID: 741945591}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -35834,12 +36132,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741945586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -216.9547, y: -0, z: -249.3661}
+  m_LocalPosition: {x: -216.9547, y: 0, z: -249.3661}
   m_LocalScale: {x: 52.021557, y: 1, z: 53.07}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741945591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741945586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &742480649
 GameObject:
   m_ObjectHideFlags: 0
@@ -37656,6 +37967,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -37701,12 +38016,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -37955,7 +38278,7 @@ GameObject:
   - component: {fileID: 791427823}
   - component: {fileID: 791427822}
   - component: {fileID: 791427821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ReceptionPlate (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39077,7 +39400,8 @@ GameObject:
   - component: {fileID: 810291208}
   - component: {fileID: 810291207}
   - component: {fileID: 810291206}
-  m_Layer: 0
+  - component: {fileID: 810291209}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -39161,6 +39485,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810291204}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &810291209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810291204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: room2
 --- !u!1 &811520665
 GameObject:
   m_ObjectHideFlags: 0
@@ -39502,6 +39839,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -39547,12 +39888,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -39852,7 +40201,8 @@ GameObject:
   - component: {fileID: 836895132}
   - component: {fileID: 836895131}
   - component: {fileID: 836895130}
-  m_Layer: 0
+  - component: {fileID: 836895133}
+  m_Layer: 6
   m_Name: road (2)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -39935,6 +40285,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836895128}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &836895133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836895128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &838258216
 GameObject:
   m_ObjectHideFlags: 0
@@ -40552,6 +40915,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -40597,12 +40964,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -40879,7 +41254,8 @@ GameObject:
   - component: {fileID: 862428412}
   - component: {fileID: 862428411}
   - component: {fileID: 862428410}
-  m_Layer: 0
+  - component: {fileID: 862428413}
+  m_Layer: 6
   m_Name: Ground (4)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -40898,7 +41274,7 @@ Transform:
   m_LocalScale: {x: 6.2840815, y: 1, z: 46.863106}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &862428410
 MeshCollider:
@@ -40963,6 +41339,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862428408}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &862428413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862428408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &864398755
 GameObject:
   m_ObjectHideFlags: 0
@@ -41760,7 +42149,8 @@ GameObject:
   - component: {fileID: 888735058}
   - component: {fileID: 888735057}
   - component: {fileID: 888735056}
-  m_Layer: 0
+  - component: {fileID: 888735059}
+  m_Layer: 6
   m_Name: Ground (1)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -41779,7 +42169,7 @@ Transform:
   m_LocalScale: {x: 52.021557, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &888735056
 MeshCollider:
@@ -41844,6 +42234,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888735054}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &888735059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888735054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &889596834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43163,6 +43566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -43208,12 +43615,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -44032,6 +44447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -44076,9 +44495,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -45026,7 +45453,8 @@ GameObject:
   - component: {fileID: 942184174}
   - component: {fileID: 942184173}
   - component: {fileID: 942184172}
-  m_Layer: 0
+  - component: {fileID: 942184175}
+  m_Layer: 6
   m_Name: Ground (5)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -45045,7 +45473,7 @@ Transform:
   m_LocalScale: {x: 45.594265, y: 1, z: 46.850018}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &942184172
 MeshCollider:
@@ -45110,6 +45538,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942184170}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &942184175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942184170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &942693088
 GameObject:
   m_ObjectHideFlags: 0
@@ -45809,6 +46250,7 @@ GameObject:
   - component: {fileID: 961546718}
   - component: {fileID: 961546717}
   - component: {fileID: 961546716}
+  - component: {fileID: 961546720}
   m_Layer: 6
   m_Name: SideWalk
   m_TagString: FootSteps/STONE
@@ -45891,8 +46333,21 @@ Transform:
   m_LocalScale: {x: 5.8487954, y: 1, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 5
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961546720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961546715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1001 &961664242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47281,6 +47736,7 @@ GameObject:
   - component: {fileID: 974847533}
   - component: {fileID: 974847532}
   - component: {fileID: 974847531}
+  - component: {fileID: 974847535}
   m_Layer: 6
   m_Name: SideWalk (1)
   m_TagString: FootSteps/STONE
@@ -47363,8 +47819,21 @@ Transform:
   m_LocalScale: {x: 1.7212414, y: 1, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 6
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &974847535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974847530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1 &983494128
 GameObject:
   m_ObjectHideFlags: 0
@@ -47782,6 +48251,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -47827,12 +48300,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -47930,6 +48411,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -47975,12 +48460,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -51260,6 +51753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -51305,12 +51802,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -51426,6 +51931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -51471,12 +51980,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -51938,6 +52455,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -51983,12 +52504,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -55275,7 +55804,7 @@ GameObject:
   - component: {fileID: 1156615835}
   - component: {fileID: 1156615837}
   - component: {fileID: 1156615836}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57444,7 +57973,8 @@ GameObject:
   - component: {fileID: 1196599192}
   - component: {fileID: 1196599191}
   - component: {fileID: 1196599190}
-  m_Layer: 0
+  - component: {fileID: 1196599193}
+  m_Layer: 6
   m_Name: crosswalk
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -57527,6 +58057,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196599188}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1196599193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196599188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &1198747688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58105,7 +58648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204572878}
   m_Layer: 0
-  m_Name: Ground
+  m_Name: AllGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58122,19 +58665,22 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 741945590}
   - {fileID: 888735055}
   - {fileID: 1795824103}
   - {fileID: 1799829534}
-  - {fileID: 741945590}
-  - {fileID: 201232660}
-  - {fileID: 961546719}
-  - {fileID: 974847534}
-  - {fileID: 1462656469}
-  - {fileID: 1887472250}
   - {fileID: 862428409}
   - {fileID: 942184171}
   - {fileID: 1494508904}
   - {fileID: 278218075}
+  - {fileID: 201232660}
+  - {fileID: 282641177}
+  - {fileID: 1476248065}
+  - {fileID: 547771370}
+  - {fileID: 961546719}
+  - {fileID: 974847534}
+  - {fileID: 1887472250}
+  - {fileID: 1462656469}
   m_Father: {fileID: 448810230}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62105,6 +62651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -62150,12 +62700,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -62432,7 +62990,8 @@ GameObject:
   - component: {fileID: 1318082357}
   - component: {fileID: 1318082356}
   - component: {fileID: 1318082355}
-  m_Layer: 0
+  - component: {fileID: 1318082358}
+  m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
   m_Icon: {fileID: 0}
@@ -62516,6 +63075,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318082353}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1318082358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318082353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: room3
 --- !u!1 &1321265208
 GameObject:
   m_ObjectHideFlags: 0
@@ -62619,6 +63191,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -62664,12 +63240,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -64633,6 +65217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -64678,12 +65266,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -64885,6 +65481,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690917558}
     m_Modifications:
+    - target: {fileID: 2298378106666535659, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344292028610105056, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121351809212310354, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413731406519879912, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533981147672300771, guid: faf46774f33e3a24da88420a8f368782, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7912807976908423687, guid: faf46774f33e3a24da88420a8f368782, type: 3}
       propertyPath: m_Name
       value: Door1Parent
@@ -67773,6 +68389,9 @@ MonoBehaviour:
   isDead: 0
   landSound: {fileID: 8300000, guid: eeaf3e0105ad59c40884ddd5c634f11d, type: 3}
   dustParticles: {fileID: 1952078010}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!82 &1426159892
 AudioSource:
   m_ObjectHideFlags: 0
@@ -67877,7 +68496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426159887}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.83, y: -10.3, z: 103.04}
+  m_LocalPosition: {x: -0.04, y: 1.15, z: -14.392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1187379026}
@@ -69754,7 +70373,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1462656469}
-  m_Layer: 0
+  - component: {fileID: 1462656470}
+  m_Layer: 6
   m_Name: Street
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69780,8 +70400,21 @@ Transform:
   - {fileID: 434070579}
   - {fileID: 836895129}
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 7
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462656470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462656468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &1463512673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70302,6 +70935,7 @@ GameObject:
   - component: {fileID: 1476248068}
   - component: {fileID: 1476248067}
   - component: {fileID: 1476248066}
+  - component: {fileID: 1476248069}
   m_Layer: 6
   m_Name: HotelGround (2)
   m_TagString: FootSteps/STONE
@@ -70317,11 +70951,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476248064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.69615, y: 0, z: -2.11715}
-  m_LocalScale: {x: 0.14036702, y: 1, z: 0.57657}
+  m_LocalPosition: {x: 47.841045, y: 0.009, z: -19.988815}
+  m_LocalScale: {x: 0.9571306, y: 1, z: 2.9220564}
   m_Children: []
-  m_Father: {fileID: 201232660}
-  m_RootOrder: 1
+  m_Father: {fileID: 1204572878}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1476248066
 MeshCollider:
@@ -70386,6 +71020,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476248064}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1476248069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476248064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1001 &1476961166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71366,7 +72013,8 @@ GameObject:
   - component: {fileID: 1494508907}
   - component: {fileID: 1494508906}
   - component: {fileID: 1494508905}
-  m_Layer: 0
+  - component: {fileID: 1494508908}
+  m_Layer: 6
   m_Name: Ground (6)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -71381,11 +72029,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494508903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.3996, y: -0, z: 277.1276}
+  m_LocalPosition: {x: -20.3996, y: 0, z: 277.1276}
   m_LocalScale: {x: 0.14460716, y: 1, z: 41.455788}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1494508905
 MeshCollider:
@@ -71450,6 +72098,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494508903}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1494508908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494508903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &1495087964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5649769834929052084, guid: 3d08c41d197c9f24494a3b2ef66d9dc3, type: 3}
@@ -76616,7 +77277,7 @@ GameObject:
   - component: {fileID: 1601472629}
   - component: {fileID: 1601472628}
   - component: {fileID: 1601472627}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78888,6 +79549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -78933,12 +79598,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -79399,6 +80072,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -79444,12 +80121,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -80135,6 +80820,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -80180,12 +80869,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -80675,7 +81372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1678131586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LampPostsA (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84590,7 +85287,8 @@ GameObject:
   - component: {fileID: 1795824106}
   - component: {fileID: 1795824105}
   - component: {fileID: 1795824104}
-  m_Layer: 0
+  - component: {fileID: 1795824107}
+  m_Layer: 6
   m_Name: Ground (2)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -84609,7 +85307,7 @@ Transform:
   m_LocalScale: {x: 0.9488877, y: 1, z: 46.89577}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1795824104
 MeshCollider:
@@ -84674,6 +85372,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795824102}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1795824107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795824102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &1796464014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85003,7 +85714,8 @@ GameObject:
   - component: {fileID: 1799829537}
   - component: {fileID: 1799829536}
   - component: {fileID: 1799829535}
-  m_Layer: 0
+  - component: {fileID: 1799829538}
+  m_Layer: 6
   m_Name: Ground (3)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -85022,7 +85734,7 @@ Transform:
   m_LocalScale: {x: 0.9488877, y: 1, z: 46.89577}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1799829535
 MeshCollider:
@@ -85087,6 +85799,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799829533}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1799829538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799829533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1 &1801897787
 GameObject:
   m_ObjectHideFlags: 0
@@ -85908,6 +86633,7 @@ GameObject:
   - component: {fileID: 1822222245}
   - component: {fileID: 1822222244}
   - component: {fileID: 1822222243}
+  - component: {fileID: 1822222246}
   m_Layer: 6
   m_Name: Ground
   m_TagString: FootSteps/WOOD
@@ -85992,6 +86718,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822222241}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1822222246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822222241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Reception
 --- !u!1001 &1822498304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86747,6 +87486,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -86792,12 +87535,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -89631,6 +90382,7 @@ GameObject:
   - component: {fileID: 1887472253}
   - component: {fileID: 1887472252}
   - component: {fileID: 1887472251}
+  - component: {fileID: 1887472254}
   m_Layer: 6
   m_Name: SideWalk (2)
   m_TagString: FootSteps/STONE
@@ -89650,7 +90402,7 @@ Transform:
   m_LocalScale: {x: 1.605426, y: 1, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1204572878}
-  m_RootOrder: 8
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!64 &1887472251
 MeshCollider:
@@ -89715,6 +90467,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887472249}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1887472254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887472249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: ParkingLot
 --- !u!1001 &1887705593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90083,6 +90848,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -90128,12 +90897,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -90424,6 +91201,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -90469,12 +91250,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -99915,6 +100704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -99960,12 +100753,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -100426,6 +101227,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -100471,12 +101276,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -101502,6 +102315,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678131586}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -101547,12 +102364,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -101661,6 +102486,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -101706,12 +102535,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -101806,6 +102643,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651315468}
     m_Modifications:
+    - target: {fileID: 2209340208989007885, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -101851,12 +102692,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452508236160057893, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
@@ -102954,7 +103803,8 @@ GameObject:
   - component: {fileID: 2127006241}
   - component: {fileID: 2127006240}
   - component: {fileID: 2127006239}
-  m_Layer: 0
+  - component: {fileID: 2127006242}
+  m_Layer: 6
   m_Name: crosswalk (1)
   m_TagString: FootSteps/STONE
   m_Icon: {fileID: 0}
@@ -103037,6 +103887,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127006237}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2127006242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127006237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74db089e3712d174aa374a3c9cc58ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: Outside
 --- !u!1001 &2130190099
 PrefabInstance:
   m_ObjectHideFlags: 0

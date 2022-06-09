@@ -118,6 +118,8 @@ public class FirstPersonController : MonoBehaviour
     public bool isDead;
     [SerializeField] private AudioClip landSound;
     [SerializeField] private GameObject dustParticles;
+    public LayerMask groundMask;  
+    private GameManager gameManager;
 
 
     void Awake()
@@ -130,7 +132,7 @@ public class FirstPersonController : MonoBehaviour
         defaultYPos = playerCamera.transform.localPosition.y;
         Cursor.visible = false;
         layerMaskFootstep = (-1) - (1 << LayerMask.NameToLayer("Player"));  
-
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     void Update()
     {
@@ -176,6 +178,8 @@ public class FirstPersonController : MonoBehaviour
             if(fallDamage){
                 Handle_Fall_Death();
             }
+
+            CheckLocation();
 
             ApplyFinalMovements();
         }
@@ -299,6 +303,20 @@ public class FirstPersonController : MonoBehaviour
             playerCamera.ViewportPointToRay(interactionRayPoint), 
             out RaycastHit hit , interactionDistance , interactionLayer)){
             currentInteractable.OnInteract();
+        }
+    }
+
+    private void CheckLocation(){
+        if(!characterController.isGrounded) return;
+
+        if(Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 3, groundMask))
+        {
+            if(hit.collider.transform.GetComponent<LocationScript>() != null){
+                gameManager.location = hit.collider.transform.GetComponent<LocationScript>().location; 
+            }  
+            else{
+                gameManager.location = "NoWhere";
+            }
         }
     }
 

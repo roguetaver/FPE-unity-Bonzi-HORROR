@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private GameObject music;
     public int estadoAtual;
     public Text goalText;
+    public string location;
 
 
     void Start()

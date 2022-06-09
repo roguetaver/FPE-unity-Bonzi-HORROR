@@ -17,24 +17,31 @@ public class State2 : MonoBehaviour
     [SerializeField] private GameObject backPackRegular;
     [SerializeField] private GameObject room1door;
     private bool done1;
+    private bool done2;
+    private bool done3;
 
 
     void Start()
     {
         gameManager = this.GetComponent<GameManager>();
         playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();    
-        //somente quando chegar no quarto
-        //playerDialog.SetDialog("It's pretty dark in here ",5f);
-        //gameManager.goalText.text = "Turn the lights on";
     }
 
     void Update()
     {   
+        if(gameManager.location == "Room1" && !done2){
+            playerDialog.SetDialog("It's pretty dark in here ",5f);
+            gameManager.goalText.text = "Turn the lights on";
+            done2 = true;
+        }
+
         if(lightSwitch.GetComponent<LightSwitchScript>().interacted && !done1){
-            playerDialog.SetDialog(" I should talk to the reception, this bed is disgusting, there is not even a pillow in here ", 15f);
-            gameManager.goalText.text = "Leave you backpack at the room";
-            backPackTrans.SetActive(true);
-            done1 = true;
+            if(Vector3.Distance(gameManager.player.transform.position, backPackTrans.transform.position) < 2){
+                playerDialog.SetDialog(" I should talk to the reception, this bed is disgusting, there is not even a pillow in here ", 15f);
+                gameManager.goalText.text = "Leave you backpack at the room";
+                backPackTrans.SetActive(true);
+                done1 = true;
+            }
         }
 
         if(backPackSystem.GetComponent<backPackSystem>().hasDone){
@@ -43,7 +50,11 @@ public class State2 : MonoBehaviour
             tableDoor.GetComponent<Animator>().SetTrigger("Open");
         }
 
-        //dialogo tem alguem aqui?
+        if(gameManager.location == "Reception" && !done3 && done2){
+            playerDialog.SetDialog("Is there someone here? ",5f);
+            done3 = true;
+        }
+
         if(letter.GetComponent<LetterScript>().interacted){
             backPackRegular.SetActive(false);
             gameManager.goalText.text = " Get your backpack and leave ";

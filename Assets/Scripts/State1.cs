@@ -18,7 +18,7 @@ public class State1 : MonoBehaviour
         gameManager = this.GetComponent<GameManager>();
         playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();      
         gameManager.goalText.text = "Get a room";
-        playerDialog.SetDialog(" This place is a bloody cesspool ",5f);
+        playerDialog.SetDialog(" It's bad, but still not the worst motel I've been ",5f);
     }
 
 
