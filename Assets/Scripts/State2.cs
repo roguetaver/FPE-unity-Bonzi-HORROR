@@ -36,8 +36,10 @@ public class State2 : MonoBehaviour
         }
 
         if(lightSwitch.GetComponent<LightSwitchScript>().interacted && !done1){
-            if(Vector3.Distance(gameManager.player.transform.position, backPackTrans.transform.position) < 2){
-                playerDialog.SetDialog(" I should talk to the reception, this bed is disgusting, there is not even a pillow in here ", 15f);
+            playerDialog.SetDialog("  ", 1f);
+            gameManager.goalText.text = " Explore the room";
+            if(Vector3.Distance(gameManager.player.transform.position, backPackTrans.transform.position) < 3f){
+                playerDialog.SetDialog("I should talk to the reception, this bed is disgusting, there is not even a pillow in here ", 15f);
                 gameManager.goalText.text = "Leave you backpack at the room";
                 backPackTrans.SetActive(true);
                 done1 = true;
@@ -57,13 +59,14 @@ public class State2 : MonoBehaviour
 
         if(letter.GetComponent<LetterScript>().interacted){
             backPackRegular.SetActive(false);
-            gameManager.goalText.text = " Get your backpack and leave ";
+            gameManager.goalText.text = "Get your backpack and leave ";
             playerDialog.SetDialog(" I need to get my car keys, they are in my backpack ", 10f);
             if(Vector3.Distance(backPackRegular.transform.position,gameManager.player.transform.position) < 3f){
                 playerDialog.SetDialog(" What happened to my backpack ? ", 12f);
                 gameManager.goalText.text = " Leave ";
                 room1door.GetComponent<Door>().isLocked = true;
                 room1door.GetComponent<Animator>().SetBool("IsUnlocked", false);
+                //dialogo quando tentar abrir a porta
                 isDone = true;
             }
         }

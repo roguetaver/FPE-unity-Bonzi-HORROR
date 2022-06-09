@@ -8,10 +8,12 @@ public class Door : Interactable
     [SerializeField] private bool canBeInteractedWith = true;
     private Animator anim;
     public bool isLocked;
+    private playerTalkingScript playerDialog;
 
     private void Start(){
         anim = GetComponent<Animator>();
         setDoorState();
+        playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();   
     }
 
     public override void OnFocus(){
@@ -32,6 +34,7 @@ public class Door : Interactable
                 StartCoroutine(AutoClose());
             }
             else{
+                playerDialog.SetDialog(" It seems to be locked ", 4f);
                 anim.SetTrigger("LockAnimation");
             }
         }
