@@ -29,6 +29,9 @@ public class State2 : MonoBehaviour
     {
         gameManager = this.GetComponent<GameManager>();
         playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();    
+        music = GameObject.Find("Music");
+        music.GetComponent<MusicScript>().setAudioClip(0);
+        music.GetComponent<MusicScript>().audioSource.Play();
     }
 
     void Update()
@@ -80,7 +83,7 @@ public class State2 : MonoBehaviour
             playerDialog.SetDialog(" I need to get my car keys, they are in my backpack ", 10f);
             if(gameManager.location == "Room1"){
                 playerDialog.SetDialog(" What happened to my backpack ? ", 12f);
-                gameManager.goalText.text = " Leave ";
+                gameManager.goalText.text = "Get your car keys and leave";
                 room1door.GetComponent<Door>().isLocked = true;
                 room1door.GetComponent<Animator>().SetBool("IsUnlocked", false);
                 //dialogo quando tentar abrir a porta

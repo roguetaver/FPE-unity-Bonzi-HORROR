@@ -136,6 +136,11 @@ public class FirstPersonController : MonoBehaviour
     }
     void Update()
     {
+        if(mouseSensitivity <= 0){
+            AdjustSensibility(1);
+        }
+        
+
         if(hasFlashlight){
             flashlight.SetActive(true);
             if(Input.GetKeyDown(KeyCode.F)){

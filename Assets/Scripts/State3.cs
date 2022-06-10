@@ -20,12 +20,18 @@ public class State3 : MonoBehaviour
     {
         gameManager = this.GetComponent<GameManager>();
         playerDialog = GameObject.Find("playerDialog").GetComponent<playerTalkingScript>();     
+        music = GameObject.Find("Music");
+        music.GetComponent<MusicScript>().setAudioClip(2);
+        music.GetComponent<MusicScript>().audioSource.Play();
     }
 
 
     void Update()
     {
         if(backPack.GetComponent<GenericInteractable>().interacted && !once1){
+            gameManager.goalText.text = "Leave";
+            music.GetComponent<MusicScript>().setAudioClip(3);
+            music.GetComponent<MusicScript>().audioSource.Play();
             backPack.SetActive(false);
             canSpawnCrabs = true;
             Instantiate(crab, spawnPoint.position, Quaternion.identity);

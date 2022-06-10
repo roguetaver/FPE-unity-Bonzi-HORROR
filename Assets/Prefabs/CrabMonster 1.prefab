@@ -3921,6 +3921,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0326bd8f5ff05ce40aeb59d23248411a, type: 3}
   - {fileID: 8300000, guid: 8d3cf202386847f40b11d3428f818686, type: 3}
   - {fileID: 8300000, guid: 305422eb0bfeece46b7bc67c1b0240cc, type: 3}
+  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!195 &353171034
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3931,7 +3933,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 4
-  m_Speed: 6
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

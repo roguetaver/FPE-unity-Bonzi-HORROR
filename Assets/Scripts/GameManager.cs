@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public string location;
     public AudioSource gmAudioSource;
     public bool playerIsDead;
+    public bool canSpawnCrabs;
 
 
     void Start()
@@ -24,7 +25,8 @@ public class GameManager : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
+        canSpawnCrabs = this.GetComponent<State3>().canSpawnCrabs;
         if(player.GetComponent<FirstPersonController>().isDead){
             Initiate.Fade("restartScene",Color.black, 1f);
         }
@@ -57,22 +59,21 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if(playerIsDead){
-            BadEnding();
-        }
-
         if(estadoAtual == 4){
             GoodEnding();
+        }
+        else if(playerIsDead){
+            BadEnding();
         }
         
         
     }
 
     public void GoodEnding(){
-        print("good ending");
+        Initiate.Fade("Ending2",Color.black, 1f);
     }
 
     public void BadEnding(){
-        print("bad ending");
+        Initiate.Fade("Ending1",Color.black, 1f);
     }
 }

@@ -13,7 +13,7 @@ public class SensibilitySlider : MonoBehaviour
         player = GameObject.Find("Player");
         slider = this.GetComponent<Slider>();
 
-        slider.value = PlayerPrefs.GetFloat("sensibility", 100f);
+        slider.value = PlayerPrefs.GetFloat("sensibility", 2f);
         player.transform.GetComponent<FirstPersonController>().AdjustSensibility(slider.value);
 
         if (slider != null)

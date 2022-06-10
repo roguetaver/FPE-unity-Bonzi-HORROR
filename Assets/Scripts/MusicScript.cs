@@ -5,16 +5,16 @@ using UnityEngine;
 public class MusicScript : MonoBehaviour
 {
     public AudioClip[] adClips;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private GameManager gameManager;
     
-    void Start()
+    void Awake()
     {
         gameManager =  GameObject.Find("GameManager").GetComponent<GameManager>();
         audioSource = this.GetComponent<AudioSource>();
     }
 
-    public void setAudioClip(int estado){
-        audioSource.clip = adClips[estado - 1];
+    public void setAudioClip(int id){
+        audioSource.clip = adClips[id];
     }
 }
