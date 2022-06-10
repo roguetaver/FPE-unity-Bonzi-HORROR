@@ -24,7 +24,7 @@ The game has slow movement (normal player movement) and fast movement (player ca
 The game is built in a three dimensional world with PSX graphics, based on the  graphic from Playstation 1 games, the main focus was to present low resolution and low quality graphics in order to make the player feel uneasy with the game flow, dovetailing with the fear feeling of a horror game, besides that a dark lighting was used and some lamp poles were added to the game forcing the player to follow the lighting from places, such as the motel rooms, the road and other game places. Finally, the game menu was created using creepy fonts, a low brightness screen, and instructions of the player are shown in the subtitles that follow the same pattern of fonts from the menu in order to transmit the same feeling.
 The low resolution graphics and the game environment can be represented on the image below:
 
-PRINT AQUI
+![motel Photo](Motel.png)
 
 **Soundtrack and SFX:**
 The game soundtrack includes a background music that persists in the most part of the time of the game, this music presents a creepy tone, in order to transmit the horror feeling of the game. The soundtracks and others game sound effects can be found on the package named as Horror Ambiances Pro, a paid out asset from itch.io, the reference is shown below:
