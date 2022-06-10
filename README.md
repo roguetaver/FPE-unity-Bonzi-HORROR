@@ -40,3 +40,5 @@ The game isn’t a hard game to beat, the idea of the game is to scare and leave
 Special thanks to:
 Luciano Soares e Emil Frame
 
+https://docs.google.com/document/d/12EcbVItluglndUAIbOtdp8BLDgqGKTh8Q-o4gLm0CE8/edit?usp=sharing
+
