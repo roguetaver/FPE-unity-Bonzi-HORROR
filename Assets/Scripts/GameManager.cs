@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     public int estadoAtual;
     public Text goalText;
     public string location;
-    private AudioSource gmAudioSource;
+    public AudioSource gmAudioSource;
+    public bool playerIsDead;
 
 
     void Start()
@@ -55,6 +56,23 @@ public class GameManager : MonoBehaviour
                 estadoAtual += 1;
             }
         }
+
+        if(playerIsDead){
+            BadEnding();
+        }
+
+        if(estadoAtual == 4){
+            GoodEnding();
+        }
         
+        
+    }
+
+    public void GoodEnding(){
+        print("good ending");
+    }
+
+    public void BadEnding(){
+        print("bad ending");
     }
 }
